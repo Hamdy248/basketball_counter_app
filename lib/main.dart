@@ -12,10 +12,10 @@ void main() {
 class pointsCounter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => countercubit(),
-      child: MaterialApp(home: HomePage()),
-    );
+    return
+     BlocProvider(
+      create: (context)=>countercubit(),
+      child: MaterialApp(home: HomePage(),),);
   }
 }
 
